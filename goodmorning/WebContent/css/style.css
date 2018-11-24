@@ -1,0 +1,188 @@
+html, body {
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+}
+
+.color1 {
+   color: #e76f51;
+}
+
+.color2 {
+   color: #f4a261;
+}
+
+.color3 {
+   color: #e9c46a;
+}
+
+.color4 {
+   color: #2a9d8f;
+}
+
+.color5 {
+   color: #264653;
+}
+
+#menu {
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 350px;
+   height: 100%;
+   display: block;
+   text-align: center;
+   background-color: #264653;
+   color: #ffffff;
+   font-family: 'Nanum Gothic', sans-serif;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+.title {
+   font-family: 'Kaushan Script', cursive;
+}
+
+#map {
+   width: 100%;
+   height: 300px;
+   display: block;
+   float: right;
+   display: block;
+}
+
+#findWrap {
+   display: none;
+   width: 350px;
+   margin: 10px 5px 10px 5px;
+   padding: 0px 0px;
+   height: 300px;
+   margin: 5px 0;
+   position: relative;
+   z-index: 9999;
+}
+
+#locHistory {
+   position: relative;
+   top: 10px;
+   left: 10px;
+   width: 500px;
+   height: 100px;
+   background-color: transparent;
+   z-index: 9999;
+}
+
+/* 버튼 부분 시작 */
+.btn {
+   border-radius: 5px;
+   padding: 5px 10px;
+   /* font-size: 22px; */
+   text-decoration: none;
+   margin: 5px;
+   color: #ffffff;
+   position: relative;
+   display: inline-block;
+   border: none;
+}
+
+.btn:active {
+   transform: translate(0px, 5px);
+   -webkit-transform: translate(0px, 5px);
+   box-shadow: 0px 1px 0px 0px;
+}
+
+.red {
+   background-color: #e76f51;
+   box-shadow: 0px 5px 0px 0px #c74f31;
+}
+
+.red:hover {
+   background-color: #f77f61;
+}
+
+.orange {
+   background-color: #f4a261;
+   box-shadow: 0px 5px 0px 0px #c48241;
+}
+
+.orange:hover {
+   background-color: #ffb271;
+}
+
+.yellow {
+   background-color: #e9c46a;
+   box-shadow: 0px 5px 0px 0px #c9a44a;
+}
+
+.yellow:hover {
+   background-color: #f9d47a;
+}
+
+.green {
+   background-color: #2a9d8f;
+   box-shadow: 0px 5px 0px 0px #0a7d6f;
+}
+
+.green:hover {
+   background-color: #3aad9f;
+}
+
+.blue {
+   background-color: #264653;
+   box-shadow: 0px 5px 0px 0px #062633;
+}
+
+.blue:hover {
+   background-color: #365663;
+}
+/* 버튼 부분 끝 */
+
+#forecastRs {
+   display: block;
+}
+
+.frcsTb {
+   text-align: center;
+    width: 350px;
+    padding: 10px 30px;
+}
+
+#forecastRs > table > tbody > tr > td > img {
+   width: 56px;
+   height: 56px;
+}
+
+.th_RN1 {
+   font-size: 15px;   
+}
+
+/* 미세먼지 부분 */
+#forecastMise {
+   display: block;
+   width : 350px;
+   height: 150px;
+}
+
+.forecast_m {
+   text-align: center;
+   width: 200px;
+   margin : 0 auto;
+   font-color : white;
+}
+
+.forecast_m img {
+   width: 90px;
+   height: 90px;
+}
+
+/* 중기예보 부분 */
+.forecastMidRs {
+   display: block;
+   width : 350px;
+   height: 150px;
+}
+
+.forecastMidRs img {
+   width: 56px;
+   height: 56px;
+}

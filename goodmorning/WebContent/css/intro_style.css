@@ -1,0 +1,29 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: #264653;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #ffffff;
+}
+#content {
+
+	text-align: center;
+}
+#hello {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.title {
+	font-family: 'Kaushan Script', cursive;
+}
+.color1 {
+	color: #e76f51;
+}
+
+.color2 {
+	color: #f4a261;
+}
+
+.color3 {
+	color: #e9c46a;
+}
